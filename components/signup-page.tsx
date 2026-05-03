@@ -96,7 +96,7 @@ export function SignupPage() {
 
           <div className="absolute inset-0 z-0">
             <img
-              src="https://i.ibb.co/dJxBbFks/brandasset.png"
+              src="/brandasset.png"
               alt="Brand Asset"
               className="w-full h-full object-cover"
             />

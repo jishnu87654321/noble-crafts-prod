@@ -46,7 +46,7 @@ export default function Features() {
 
             <div className="relative w-full flex-1 min-h-[350px] md:min-h-[400px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/40">
               <Image 
-                src="https://i.ibb.co/dJxBbFks/brandasset.png" 
+                src="/brandasset.png" 
                 alt="Custom Web Design" 
                 fill
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.02]"
