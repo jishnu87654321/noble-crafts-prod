@@ -84,7 +84,7 @@ export function RegistrationSection() {
             {/* Side Pic (Brand Image) */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/brandasset.png"
+                src="/video/custom-design.png"
                 alt="Brand Asset"
                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
               />
