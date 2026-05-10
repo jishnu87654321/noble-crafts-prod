@@ -9,26 +9,36 @@ const worksData = [
     description:
       "Pure. Powerful. Naturally You. We crafted a premium e-commerce experience for Shivani Skincare, focusing on elegant design and seamless user journey.",
     href: "https://www.shivaniskincare.com",
-    image:
-      "https://res.cloudinary.com/dsdx78fgf/image/upload/v1777824720/Screenshot_2026-05-03_212914_xesp3c.png",
+    image: "/images/shivani-skincare.png",
+    quality: 100,
+    priority: true,
   },
   {
-    id: "project-placeholder-1",
-    title: "Upcoming Project",
+    id: "restaurant-analytics",
+    title: "Restaurant Analytics",
     description:
-      "A new digital masterpiece is currently in the works. We are pushing the boundaries of design and technology for our next client.",
-    href: "#",
-    image:
-      "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80",
+      "Turning data into exceptional dining experiences. We built a comprehensive analytics dashboard for modern restaurants to track performance and growth.",
+    href: "https://kitchen-restaurant-seven.vercel.app",
+    image: "/images/restaurant-analytics.png",
+    quality: 100,
   },
   {
-    id: "project-placeholder-2",
-    title: "Digital Innovation",
+    id: "bk-overseas",
+    title: "BK Overseas",
     description:
-      "Stay tuned for a revolutionary platform that will redefine user interaction in the fintech space. Coming soon to our portfolio.",
-    href: "#",
-    image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&q=80",
+      "Global Export & Logistics Hub. We designed a powerful platform for BK Overseas to manage their global supply chain and logistics operations seamlessly.",
+    href: "https://bkoverseas.com",
+    image: "/images/bk-overseas.jpg",
+    quality: 100,
+  },
+  {
+    id: "akhil-adventures",
+    title: "Akhil The Adventures",
+    description:
+      "Unveiling the wild. We created a visually stunning travel and adventure blog for Akhil, capturing the essence of exploration through immersive design.",
+    href: "https://www.akhiltheadventures.in",
+    image: "/images/akhil-adventures.jpg",
+    quality: 100,
   },
 ];
 

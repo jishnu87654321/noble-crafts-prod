@@ -1,7 +1,6 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { useState, useEffect } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Sparkles } from "lucide-react"
 import Link from "next/link"
@@ -21,16 +20,6 @@ const techLogos = [
 ];
 
 export default function Hero() {
-  const [mounted, setMounted] = useState(false)
-
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  if (!mounted) {
-    return null
-  }
-
   return (
     <>
       <section className="relative overflow-hidden min-h-screen flex flex-col bg-black -mt-24 pt-24" style={{ zIndex: 10, isolation: 'isolate' }}>

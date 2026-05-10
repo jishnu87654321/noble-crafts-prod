@@ -46,9 +46,11 @@ export default function Features() {
 
             <div className="relative w-full flex-1 min-h-[350px] md:min-h-[400px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-black/40">
               <Image 
-                src="/video/custom-design.png" 
-                alt="Custom Web Design" 
+                src="/images/noblecrafts-hero.jpg" 
+                alt="Custom Web Design - NobleCrafts Mockup" 
                 fill
+                quality={100}
+                priority
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-[1.02]"
                 sizes="(max-width: 768px) 100vw, 50vw"
               />

@@ -21,6 +21,8 @@ export interface Gallery4Item {
   description: string;
   href: string;
   image: string;
+  quality?: number;
+  priority?: boolean;
 }
 
 export interface Gallery4Props {
@@ -136,6 +138,8 @@ const Gallery4 = ({
                       src={item.image}
                       alt={item.title}
                       fill
+                      quality={item.quality || 75}
+                      priority={item.priority}
                       className="absolute h-full w-full object-cover object-top transition-transform duration-1000 group-hover/card:scale-110"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
